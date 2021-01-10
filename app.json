@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "school-attendance-app-publishing",
+    "slug": "snack-0b899af8-656f-4d52-9a24-23fd07aa47f3",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": "\nI createed an application where teachers can see the list of students, mark present/absent for a particular date. The date for that day gets stored in a database and on submitting the teachers can see a total number of students present or absent on that day.\n"
+  }
+}
